@@ -1,0 +1,114 @@
+.user-container{
+    background-color: rgb(255, 255, 255);;
+}
+.flex-row-container {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 10% 0 10.5%; */
+    
+}
+.flex-row-container > .flex-row-item {
+    flex:300px;
+    flex:1 1 30%; /*grow | shrink | basis */
+    height: 550px;
+    
+}
+
+.flex-row-item {
+  background-color: rgb(255, 255, 255);
+  /* //border: 0px solid  #fff; */
+  border: 31px solid #fff;
+  
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p.center {
+     text-align: middle;
+     
+}
+div {
+    text-align: left;   
+    
+}
+.frame{
+    padding: 4% 15% ;
+    margin: 0px 0px 0px 0px;
+    border: 10px 0px 0px 0px;
+}
+.round {
+    border-radius: 10px 10px 0px 0px; /* Радиус скругления */
+    /* border: 25px ; Параметры рамки */
+    /* box-shadow: 0 0 0px #666; /* Параметры тени */
+    /*width: 20%;
+    float: left;
+    padding: 2% 2%; */
+    
+   }
+
+h1 {
+    text-align: center;
+    padding: 0% 6% ;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+ 
+ p.name{
+    padding: 0px 0px 0% 0%;
+    font-size: 1.5rem;
+    line-height: 0;
+
+    padding-left: 0px;
+    font-weight: 645;
+    text-align: center;
+ }
+ p.title{
+    font-size: 1.27rem;
+    color: rgb(143, 143, 143);
+    text-indent: 7px;
+    line-height: 0.3;
+ }
+ .button {
+    background-color: rgb(143, 143, 143); /* Green */
+    border: 100%;
+    color: white;
+    padding: 15px 320px;
+    /* text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px; */ 
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 190px;
+    display: flex;
+    
+    
+    justify-content: center;
+}
+.card{
+    background-color: #e0e0e0;
+    /* border: 2px solid rgb(61, 20, 212); */
+    height: 480px;
+    box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 10px;
+}
+.example-shadow-3 {
+    background: #e8e8e8;
+    text-align: center;
+  }
+  .example-shadow-3 span {
+    background: white;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }

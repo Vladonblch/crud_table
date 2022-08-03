@@ -1,0 +1,40 @@
+{
+  "tables": [
+    {
+      "taskName": "10 task",
+      "id": 10,
+      "goals": "create CRUD application",
+      "difficulties": "no experience, new language",
+      "resources": "internet, courses, last projects",
+      "imageUrl": "/image/images.jpg",
+      "isActive": true
+    },
+    {
+      "taskName": "11 task",
+      "id": 11,
+      "goals": "create CRUD application",
+      "difficulties": "no experience, new language",
+      "resources": "internet, courses, last projects",
+      "imageUrl": "/image/images.jpg",
+      "isActive": false
+    },
+    {
+      "taskName": "12 task",
+      "id": 12,
+      "goals": "create CRUD application",
+      "difficulties": "no experience, new language",
+      "resources": "internet, courses, last projects",
+      "imageUrl": "/image/images.jpg",
+      "isActive": false
+    },
+    {
+      "taskName": "13 task",
+      "id": 13,
+      "goals": "create CRUD application",
+      "difficulties": "no experience, new language",
+      "resources": "internet, courses, last projects",
+      "imageUrl": "/image/images.jpg",
+      "isActive": false
+    }
+  ]
+}
